@@ -1,0 +1,55 @@
+download-gist
+=============
+
+Gittip: https://www.gittip.com/Greduan/
+
+Simply download the files of the Gist that corresponds to the ID you give it.
+
+
+Installation
+------------
+
+You can get the latest stable and/or development version from the GitHub
+repo. <https://github.com/Greduan/download-gist>
+
+To install simply clone this repo somewhere, install npm packages `npm install`
+and add an alias to your shell that points to the location of this repo's
+`bin/dg`.  Something like this:
+
+    alias cmi='/home/greduan/dev/download-gist/bin/dg'
+
+Of course replacing that with your actual location.  Can be an absolute path or
+not, your preference, but I'm not exactly sure what would and wouldn't work for
+this, so figure it out.
+
+
+License
+-------
+
+Dual licensed under the ISC and WTFPL licenses.  See the LICENSE-ISC.txt and the
+LICENSE-WTFPL.txt files for the corresponding full license terms.
+
+Licensed first under the ISC license, work under this license whenever possible,
+if more freedom is desired or needed then work under the WTFPL license.
+
+ISC:
+
+    Copyright (c) 2014, Greduan <eduan@websharks-inc.com>
+    This work is free. You can redistribute it and/or modify it under the terms
+    of the ISC (Internet Software Consortium) License.  See the LICENSE-ISC.txt
+    file for more details.
+
+WTFPL:
+
+    Copyright © 2014 Greduan <eduan@websharks-inc.com>
+    This work is free. You can redistribute it and/or modify it under the terms
+    of the Do What The Fuck You Want To Public License, Version 2, as published
+    by Sam Hocevar.  See the LICENSE-WTFPL.txt file for more details.
+
+
+Author(s) and contributors
+--------------------------
+
+Check the CONTRIBUTORS file for contributors to this project.
+
+For instructions and/or guidelines on contributing check the CONTRIBUTING file.
