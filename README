@@ -16,7 +16,7 @@ To install simply clone this repo somewhere, install npm packages `npm install`
 and add an alias to your shell that points to the location of this repo's
 `bin/dg`.  Something like this:
 
-    alias cmi='/home/greduan/dev/download-gist/bin/dg'
+    alias dg='/home/greduan/dev/download-gist/bin/dg'
 
 Of course replacing that with your actual location.  Can be an absolute path or
 not, your preference, but I'm not exactly sure what would and wouldn't work for
