@@ -3,7 +3,7 @@
 var docopt = require('docopt').docopt;
 var fs = require('fs');
 
-var doc = 'Usage: cmi GISTID' +
+var doc = 'Usage: dg GISTID' +
 '\n' +
 '\nOptions:' +
 '\n  -h --help     Show this screen.' +
@@ -15,12 +15,10 @@ require('chainy').create().require('autoinstall')
 	.require('set feed map')
 	.set('https://api.github.com/gists/'+cli['GISTID'])
 	.feed()
-	// get the 'files' object
 	.action(function(currentChainValue){
 		return currentChainValue.files;
 	})
 	.map(function(value){
-		// console.log(value['filename']);
 		fs.writeFile('./'+value['filename'], value['content'], function(err){
 			if (err) return console.log(err);
 		});
