@@ -1,6 +1,6 @@
 {
   "name": "download-gist",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Download a Gist and put it in current directory",
   "main": "bin/dg",
   "scripts": {
@@ -17,14 +17,17 @@
   },
   "homepage": "https://github.com/Greduan/download-gist",
   "dependencies": {
-    "chainy": "^1.0.1",
+    "chainy": "^1.1.0",
     "chainy-bundle-common": "^1.0.1",
     "chainy-core": "^1.3.1",
-    "chainy-plugin-autoinstall": "^1.0.0",
+    "chainy-plugin-each": "^1.0.0",
     "chainy-plugin-feed": "^1.0.0",
     "chainy-plugin-map": "^1.0.3",
     "chainy-plugin-set": "^1.0.2",
     "docopt": "^0.4.0",
     "github": "^0.2.1"
+  },
+  "bin": {
+    "dg": "./bin/dg"
   }
 }
