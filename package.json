@@ -1,6 +1,6 @@
 {
   "name": "download-gist",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Download a Gist and put it in current directory",
   "main": "bin/dg",
   "scripts": {
