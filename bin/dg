@@ -11,7 +11,7 @@ var doc = 'Usage: dg GISTID...' +
 var cli = docopt(doc, {help: true, version: '0.2.0'});
 // return console.log(cli);
 
-require('chainy').create().require('set feed map')
+require('chainy').create().require('set map feed each')
 	.set(cli['GISTID']) // array
 
 	.map(function (id, complete) {
