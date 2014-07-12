@@ -22,6 +22,8 @@ Of course replacing that with your actual location.  Can be an absolute path or
 not, your preference, but I'm not exactly sure what would and wouldn't work for
 this, so figure it out.
 
+You can also now install it with NPM, using `npm install -g download-gist`. :)
+
 
 License
 -------
