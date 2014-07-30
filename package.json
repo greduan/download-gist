@@ -19,7 +19,7 @@
   "dependencies": {
     "chainy": "^1.1.0",
     "chainy-bundle-common": "^1.0.1",
-    "chainy-core": "^1.3.1",
+    "chainy-core": "^1.4.0",
     "chainy-plugin-each": "^1.0.0",
     "chainy-plugin-feed": "^1.0.0",
     "chainy-plugin-map": "^1.0.3",
