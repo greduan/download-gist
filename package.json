@@ -1,0 +1,25 @@
+{
+  "name": "download-gist",
+  "version": "0.4.0",
+  "description": "Download a Gist and put it in current directory",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Greduan/download-gist"
+  },
+  "author": "Greduan <eduan@websharks-inc.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Greduan/download-gist/issues"
+  },
+  "homepage": "https://github.com/Greduan/download-gist",
+  "dependencies": {
+    "docopt": "^0.4.0",
+    "request": "^2.49.0"
+  },
+  "bin": {
+    "dg": "./bin/dg.js"
+  }
+}
