@@ -4,7 +4,7 @@ var docopt = require('docopt').docopt,
     fs = require('fs'),
     r = require('request');
 
-var doc = 'Usage: dg [-v -c -a -f] GISTID...' +
+var doc = 'Usage: dg [options] GISTID...' +
     '\n' +
     '\nOptions:' +
     '\n  -c --config   Path to aliases config file.' +
@@ -25,8 +25,6 @@ cli.GISTID.forEach(function (val) {
     r(options, function (err, res, body) {
         if (err) { return err; }
         parsedBody = JSON.parse(body);
-
-        console.log(parsedBody);
 
         for (var file in parsedBody.files) {
             if (parsedBody.files.hasOwnProperty(file)) {
